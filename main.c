@@ -24,12 +24,13 @@ int main(int argc, char** argv) {
     char texto[1000] = "silas nazare chagas";
     
     printf("CRIPTOGRAFIA - CERCA DE FERROVIA\n\n");
-    printf("Texto a ser criptografado: ");
+    /*printf("Texto a ser criptografado: ");
     scanf("%c", texto);
     printf("\nNumero de trilhos: ");
-    scanf("%d", &trilhos);
+    scanf("%d", &trilhos);*/
     
     tam = strlen(texto);
+    trilhos = 3;
     
     for(int i = 0, posicao = 0; i < tam; i++, posicao++)
     {
@@ -81,4 +82,3 @@ int main(int argc, char** argv) {
 
     return (EXIT_SUCCESS);
 }
-
